@@ -1,0 +1,50 @@
+body {
+    background-color: #16A085;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px 30px;
+  }
+  
+  header {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 28px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  button {
+    background-color: #0E6655;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0C4E44; /* cambia su color cuando pasa el cursor*/
+  }
+  
+  
+  
+  .instructions {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 100px;
+    line-height: 1.5;
+  }
